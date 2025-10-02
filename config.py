@@ -6,7 +6,7 @@ import os
 # Load environment variables from a .env file (optional)
 load_dotenv()
 
-MONGO_URL = os.getenv("MONGO_URL", "mongodb://localhost:27017")
+MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://gsreddy1182006_db_user:Santhosh1108@cluster0.1pv79wz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = "todo"  # Your database name
 USERS_COLLECTION = "users"  # Your users collection
 
