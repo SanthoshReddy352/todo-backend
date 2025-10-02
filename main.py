@@ -14,7 +14,10 @@ app = FastAPI(
 # Allow frontend (React) to communicate with backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # React dev server
+    allow_origins=[
+        "https://tasks-todo-18.netlify.app/",
+        "http://localhost:5173",
+    ],  # React dev server
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
