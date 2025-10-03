@@ -16,6 +16,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://tasks-todo-18.netlify.app",
+        "https://tasks-todo-18.netlify.app",
         "http://localhost:5173",
     ],  # React dev server
     allow_credentials=True,
